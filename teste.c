@@ -50,7 +50,7 @@ void preencheVetor (CADASTRO cadastro[]) {
         gets(cadastro[i].CPF);
 
         printf("Escreva o estado civil\n1- solteiro(a)\n2- casado(a)\n3- viúvo(a)\n4- divorciado(a)\n  : ");
-        getchar(cadastro[i].estadoCivil);
+        scanf("%c",&cadastro[i].estadoCivil);
 
         printf("Escreva o telefone : ");
         gets(cadastro[i].telefone);
@@ -59,7 +59,7 @@ void preencheVetor (CADASTRO cadastro[]) {
         scanf("%d", &cadastro[i].idade);
 
         printf("Escreva o sexo\n1- masculino\n2- feminino\n3- indefinido\n ");
-        getchar(cadastro[i].sexo);
+        scanf("%c",&cadastro[i].sexo);
     }
 }
 
